@@ -37,8 +37,23 @@ namespace Arrays
             //int[] ageOfStudents = new int[21];
             //ageOfStudents[0] = int.Parse(Console.ReadLine());
 
-            string[] restorantsInMall = { "subway", "saki", "dunkindoughnuts", "Red Lobster", "Chick Fil-A" };
-            Console.WriteLine(restorantsInMall.Length);
+            //string[] restorantsInMall = { "subway", "saki", "dunkindoughnuts", "Red Lobster", "Chick Fil-A" };
+            //Console.WriteLine(restorantsInMall[3].Length-1);
+            //int NumberThree = restorantsInMall.Length;
+            //Console.WriteLine(restorantsInMall[restorantsInMall.Length - 2]);
+            //char[] middelName = { 'H', 'o', 'w', 'a', 'r', 'd' };
+            //Console.WriteLine(middelName.Length);
+
+            //int[] bestYearEver = { 1985, 1999, 1991, 200, 1985 };
+            //Console.WriteLine(Array.IndexOf(bestYearEver, 1985));
+
+            //reverse Method
+
+        //    int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+            
+        //    Console.WriteLine(palindromeNumbers[4]);
+        //    Array.Reverse(palindromeNumbers);
+        //    Console.WriteLine(palindromeNumbers[4]);
         }
     }
 }
