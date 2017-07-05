@@ -23,8 +23,22 @@ namespace Arrays
 
             //double[] gpas = { 2.5, 3.4, 3.5, 3.0, 2.6, 4.0, 3.2, 1.5 };
 
-            char[] firstInital = { 'I', 'H', 'M', 'R' };
-            Console.WriteLine(firstInital);
+            //char[] firstInital = { 'I', 'H', 'M', 'R' };
+            //Console.WriteLine(firstInital);
+
+            //int[] numberOfSeats = new int[21];
+            //string[] studentsInClass = new string[21];
+
+            //studentsInClass[0] = "Jorden";
+            //Console.WriteLine("Enter a human person.");
+            //studentsInClass[1] = Console.ReadLine();
+
+            //Console.WriteLine("Enter that person age");
+            //int[] ageOfStudents = new int[21];
+            //ageOfStudents[0] = int.Parse(Console.ReadLine());
+
+            string[] restorantsInMall = { "subway", "saki", "dunkindoughnuts", "Red Lobster", "Chick Fil-A" };
+            Console.WriteLine(restorantsInMall.Length);
         }
     }
 }
