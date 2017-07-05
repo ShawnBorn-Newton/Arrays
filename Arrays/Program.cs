@@ -49,11 +49,38 @@ namespace Arrays
 
             //reverse Method
 
-        //    int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
-            
-        //    Console.WriteLine(palindromeNumbers[4]);
-        //    Array.Reverse(palindromeNumbers);
-        //    Console.WriteLine(palindromeNumbers[4]);
+            //    int[] palindromeNumbers = { 1, 2, 3, 4, 5, 6, 7 };
+
+            //    Console.WriteLine(palindromeNumbers[4]);
+            //    Array.Reverse(palindromeNumbers);
+            //    Console.WriteLine(palindromeNumbers[4]);
+
+            //string[] powerRangers = { "Green", "Yellow", "Pink", "Blue", "Red", "Black" };
+            //Array.Sort(powerRangers);
+            //Console.WriteLine(powerRangers[0]);
+
+            //string[] moreNames = { "Bob", "Alise", "Bill", "Jack", "Shelly" };
+            //Console.WriteLine(Array.IndexOf(moreNames, "Alise"));
+
+            //int[] luckyNumbers = { 3, 5, 7, 8, 8, 3, 8, 9, 5 };
+            //Console.WriteLine(Array.IndexOf(luckyNumbers, 8));
+
+            //char[] alphabet = { 'a', 'b', 'c', 'd', 'e' };
+            //Array.Sort(alphabet);
+            //Console.WriteLine(alphabet[0]);
+            //Array.Reverse(alphabet);
+            //Console.WriteLine(alphabet[0]);
+
+            //string[] studentNames = { "Bob", "Alise", "Bill", "Jack", "Shelly" };
+            //Array.Sort(studentNames);
+            //Console.WriteLine(studentNames[0]);
+            //Console.WriteLine(studentNames[4]);
+
+            int[] favoriteNumbers = { 3, 5, 7, 8, 8, 3, 8, 9, 5, 9 };
+            Array.Sort(favoriteNumbers);
+            Console.WriteLine(favoriteNumbers[0]);
+            Console.WriteLine(favoriteNumbers[9]);
+
         }
     }
 }
